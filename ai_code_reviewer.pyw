@@ -12,7 +12,7 @@ import pystray
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-OPENAI_API_KEY = os.getenv("GROQ_API_KEY", "YOUR_GROQ_API_KEY_HERE")
+OPENAI_API_KEY = os.getenv("GROQ_API_KEY", "YOUR_GROQ_API_KEY_HERE")")
 AI_MODEL = "openai/gpt-oss-20b"  # Or your active Groq model name
 
 client = OpenAI(
